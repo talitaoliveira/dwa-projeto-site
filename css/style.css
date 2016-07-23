@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*
+	Project name: Katinha - bolinhos e doces;
+	Company.....: Mainha;
+	Author......: Talita Oliveira;
+	Version.....: 1.0 | jul 2016;
+*/
+/* @import url("normalize.css"); */
+@import url("skeleton.css");
+@import url("reset.css");
+
+@import url("layout.css");
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Open+Sans+Condensed:300|Montserrat:400,700|Great+Vibes|Amatic+SC:400,700';

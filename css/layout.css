@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+*,*::before,*::after{
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing:content-box;
+	-o-box-sizing:content-box;
+	-ms-box-sizing:content-box;
+}
+body{
+	font-family: "Open Sans Condensed", sans-serif;
+	color: rgb(125,125,125);
+}
+
+div#header{
+	height: 560px;
+}
+/* section#top{
+	padding-top: 2em;
+} */
+header#logo h1{
+	background-image: url(../img/logo.png);
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+}
+header#logo h1 a{
+	display: block;
+	height: inherit;
+	text-indent: -999999em;
+}
+
+section#menu nav{
+	margin-top: 75px;
+}
+section#menu nav ul li{
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left:20px;
+}
+section#menu nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-family: "Great Vibes", sans-serif;
+	font-size: 25px;
+}
+section#menu nav ul li:nth-child(1) a{
+	color: #FF603D;
+	padding:10px;
+}
+section#banner{
+	margin-top:20px;
+	height: 500px;
+	background-image: url(../fotos/IMG-20160611-WA0002.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -350px;
+}
+
+section#mensagem-boasvindas{
+	height: 200px;
+	padding-top: 400px;
+}
+div#mensagem{
+	margin: 0 auto;
+	height: 200px;
+	width: 80%;
+	background-color: #FF603D;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+}
+div#mensagem h2{
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+	margin: 20px;
+	font-size: 40px;
+	font-weight: 700;
+}
+div#mensagem p{
+	line-height: 25px;
+}
+div#mensagem h3{
+	margin-top: 30px;
+}
+div#mensagem h3 a{
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+div#content{
+	margin-top:380px;
+}
+section#secao-produtos header h2{
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	color: #FF603D;
+}
+
+.content-produtos h3{
+	font-size: 150px;
+	text-align: center;
+	letter-spacing: -10px;
+}
+
+.item-produto{
+	height: 300px;
+	border:1px solid #FF603D;
+	margin-bottom: 20px;
+}
+.item-produto figure img{
+	height: 300px;
+	max-width: 300px;
+}
+section#content-produtos-1 section:nth-child(even){
+	padding:40px 0;
+	text-align: center;
+}
+section#content-produtos-1 section:nth-child(odd){
+	border:none;
+}
+section#content-produtos-2 section:nth-child(odd){
+	padding:40px 0;
+	text-align: center;
+}
+section#content-produtos-2 section:nth-child(even){
+	border: none;
+}
+section#content-produtos-1 section:nth-child(even) p{
+	padding:0 20px;
+	line-height: 30px;
+}
+section#content-produtos-2 section:nth-child(odd) p{
+	padding:0 20px;
+	line-height: 30px;
+}
+section#top-10-receitas{
+	margin-top:50px;
+	background-image: url(../fotos/bolinhosozinho.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 450px;
+	color: #FFF;
+}
+section#top-dez{
+	margin-top:10%;
+	background-color: #FF603D;
+	height: 200px;
+	width: 55%;
+	padding: 40px 30px;
+}
+section#top-dez h2{
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: left;
+}
+section#top-dez h3{
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+}
+section#botoes{
+	margin-top: 30px;
+}
+section#botoes input{
+	height: 70px;
+	width: 200px;
+	border-radius: 0%;
+	border: none;
+	color: #FFF;
+}
+section#botoes input:first-child{
+	background-color: #7CCCC1;
+}
+section#botoes input:last-child{
+	background-color: #B8CC8F
+}
+
+section#secao-encomendas{
+	height: 650px;
+	background-image: url(../fotos/IMG-20160703-WA0004.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -150px;
+}
+section#card-review{
+	border: 1px solid transparent; /* SE EU TIRAR ISSO, FICA TRONXO... NÃO SEI PQ*/
+}
+section#card-review div{
+	background-color: #fff;
+	width: 95%;
+	margin:150px auto;
+}
+section#card-review div section{
+	margin-top:100px;
+}
+section#card-review div section h2{
+	color: #000;
+	font-family: "Great Vibes", sans-serif;
+	font-size: 50px;
+}
+section#card-review div section p{
+	margin-top: 30px;
+	padding-right: 10px;
+	color: #000;
+	line-height: 25px;
+	font-size: 20px;
+}
+section#card-review div input{
+	height: 70px;
+	width: 200px;
+	border-radius: 0%;
+	border: none;
+	color: #FFF;
+	background-color: #C3BCE5;
+	position: absolute;
+	top: 440px;
+	left: 420px;
+}
+section#varios-bolinhos{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+div.bolinhos figure img{
+	width: 200px
+}
+div#footer{
+	background-color: #C3BCE5;
+	height: 250px;
+}
+.item-footer{
+	margin-top:100px;
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+}
+
+div#footer section address{
+	text-align: left;
+	padding-left: 80px;
+}
