@@ -15,9 +15,6 @@ body{
 div#header{
 	height: 560px;
 }
-/* section#top{
-	padding-top: 2em;
-} */
 header#logo h1{
 	background-image: url(../img/logo.png);
 	width: 200px;
@@ -59,7 +56,6 @@ section#banner{
 	background-size: cover;
 	background-position: 0px -350px;
 }
-
 section#mensagem-boasvindas{
 	height: 200px;
 	padding-top: 400px;
@@ -121,17 +117,18 @@ section#secao-produtos header h2{
 }
 .item-produto figure img{
 	height: 300px;
+	width:100%;
 	max-width: 300px;
 }
 section#content-produtos-1 section:nth-child(even){
-	padding:40px 0;
+	/* padding:0px 0; */
 	text-align: center;
 }
 section#content-produtos-1 section:nth-child(odd){
 	border:none;
 }
 section#content-produtos-2 section:nth-child(odd){
-	padding:40px 0;
+	/* padding:0px 0; */
 	text-align: center;
 }
 section#content-produtos-2 section:nth-child(even){
@@ -202,7 +199,7 @@ section#secao-encomendas{
 	background-position: 0px -150px;
 }
 section#card-review{
-	border: 1px solid transparent; /* SE EU TIRAR ISSO, FICA TRONXO... NÃO SEI PQ*/
+	border: 1px solid transparent; /* SE EU TIRAR ISSO, FICA TRONXO... NÃO SEI PQ U_U */
 }
 section#card-review div{
 	background-color: #fff;
